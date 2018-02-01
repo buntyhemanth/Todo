@@ -57,9 +57,8 @@ Todo.findById(id).then((todo) => {
   // });
 });
 
-
 app.listen(port, () =>{
-  console.log("Started server at" port);
+  console.log("Started server at", port);
 })
 
 // var newTodo = new Todo({
